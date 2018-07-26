@@ -1,0 +1,4 @@
+I figured out that captcha is just cookie for that site. After that I launched my brute force attck using 'brute-force.py' script.
+My password comes out '27424'. After loggin in, I downloaded the 'fHash.py' script from the website. I had to find hl', hr', m' such that fHash(hl', hr', m') = fHash(hl, hr, m). I used the script 'collision.py' to figure out one possible triplet, i.e, hl'=0001, hr'=630d, m'=1c4e72f08a8078e1. After entering the tuplet, I got the flag 'cs628a{2d63cf2a8c20e5b27989c5c43191435f}'.
+
+Since hashing rounds are independant of each other,I can focus just on getting just a valid input (2 IVs and message block) that generate the expected output. Doing this backward,I found the initial IVs and message after 4 rounds using 'collision.py'.

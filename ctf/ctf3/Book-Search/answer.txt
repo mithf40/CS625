@@ -1,0 +1,3 @@
+This question is based on SQL Injection. On trying some pattern matching queries, for example LIKE "cs628a{%", I got to know that the given flag is not in
+the books databse table. So, I tried getting other column names from sqlite_master table. This tell that there is another column which contains the flag.
+I started matching patterns by running script 'python -W ignore script.py' to get the flag. The script checks if a string is there in the database sequentially. The flag is 'cs628a{446b01da9698cc352a16639e9ed126d8}' 

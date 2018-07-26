@@ -1,0 +1,2 @@
+To see the contents of dump file, I used 'strings' command. However just using 'strings first_question.dmp' gives whole bunch of random text.
+So, I used 'strings first_question.dmp | grep -i "cs628"' to filter out strings containing 'cs628'. The flag was 'CS628A{asdbajshdbuuyeeygutewbeb764722222552894rjf94}'.

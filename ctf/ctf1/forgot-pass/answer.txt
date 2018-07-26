@@ -1,0 +1,4 @@
+I executed the program using gdb and put a breakpoint just before it checks if the password is correct.
+After that I executed it line by line. I noticed that it matches the password with some hard coded string "ryPugzwCbIEbjBdO"
+and that string is its correct password.
+After finding the password, I executed the program and found the flag.
