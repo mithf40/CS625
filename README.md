@@ -1,1 +1,1 @@
-# CS625
+This repo contains ctfs and projects of computer security course offered at IIT Kanpur in the academic year 2017-18(II).
