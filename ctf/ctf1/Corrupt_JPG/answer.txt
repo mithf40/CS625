@@ -1,4 +1,0 @@
-First of all, I found that first eight bytes of given jpg file using 'xxd -l8 flag.jpg' are '8950 4e47'.
-But first eight bytes of a jpg file must always contain the following values: 'ffd8 ffe0'.
-So, I changed those eight bytes using the following command: "printf '\xff\xd8\xff\xe0' | dd of=flag.jpg bs=1 seek=0 conv=notrunc".
-After changing those bytes, I was able to see the image and flag written on it.

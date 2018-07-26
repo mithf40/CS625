@@ -1,2 +1,0 @@
-After disassembling the main, I noticed that it compares the given password with 0x7ce0 which is 31968 in decimals.
-So, I ran the program and gave 31968 as password. It prints the flag.

@@ -1,4 +1,0 @@
-After checking the disassembly of main, I found that it allocates 0x101 bytes before scanf call.
-So, size of variable must be 0x101 bytes. After scanf it checks if value at 0x101-0xc which is 245 is zero or not.
-If it is not zero, it prints the flag.
-So, I gave the command `python -c 'print("A"*246)' | ./buggy` and it outputs the flag.

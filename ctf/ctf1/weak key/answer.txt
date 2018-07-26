@@ -1,3 +1,0 @@
-Text in flag.txt is in hexadecimal value. So, I decoded it to ascii text. Then I needed to send this decoded text to DES Encryption system.
-But we cannot type hexadecimal inputs through keyboard. So, I used a script to send input to and receive output from DES.
-The output itself contains the flag.

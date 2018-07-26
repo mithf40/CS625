@@ -1,1 +1,0 @@
-Seed to generate random number is based on time. So I found out time of creation of 'secret.docx.enc' by 'os.path.getctime("secret.docx.enc")' and it was 1523017351. After That I decoded the encrypted text using 30 different seeds and saved in separate .docx file. One of the docx file contains the flag and it is 'cs628a{b28292fef8307f8ecbb409d09fdc26dc}'.

@@ -1,3 +1,0 @@
-First of all, I disassembled the main. From its disassembly, I noticed that twice of input is stored in register edx and input is shifted left by 3 bits.
-Then it is added with edx. So, input becomes 10 times. It then checks if 10 times input equals 4. 
-One such input is 429496730. Integer overflow happens and its 10 times is 4.

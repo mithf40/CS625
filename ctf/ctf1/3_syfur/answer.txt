@@ -1,3 +1,0 @@
-I analysed the disassembly of get_flag and found out that size of local variables is 0x6a in hex = 106 bytes. Address of not_flag is 0804856f.
-So input must be of size 106+4=110 bytes followed by address of not_flag.
-I gave the input as follows: python -c 'print("a"*110+"\x6f\x85\x04\x08")' | ./3_syfur

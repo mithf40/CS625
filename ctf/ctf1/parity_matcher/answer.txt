@@ -1,5 +1,0 @@
-I found that out of 11 bits which were being transmitted, 2-9 bits were data bits and 10th bit was parity bit.
-For every transmission, I checked whether the parity bit satisfies the odd parity rule.
-If it follows the odd parity rule, I converted the data to ascii character and press 1.
-If not, press 0 to re-transmit the data.
-To automate this process, I used a script misc.py.

@@ -1,2 +1,0 @@
-I used an online tool 'https://incoherency.co.uk/image-steganography/#unhide' to unhide the flag hidden in the given png file.
-I used number of hidden bits = 2 and flag was clearly visible. The flag is 'cs628{!t'$_a_g@m3_4_h@ck}'.

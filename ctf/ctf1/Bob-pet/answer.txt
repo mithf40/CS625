@@ -1,3 +1,0 @@
-Using "objdump -d bob-pet" command, I found out that addresss of <getFlag> is 0804856b.
-Also size of variable for scanf is 0x9b in hex = 155 bytes. After scanf it calls function whose address is in [ebp-0x9b-0xc].
-So, I gave input of size 155-12=143 bytes follwed by address of <getFlag>, i.e., "python -c 'print("a"*143+"\x6b\x85\x04\x08")' | ./bob-pet".

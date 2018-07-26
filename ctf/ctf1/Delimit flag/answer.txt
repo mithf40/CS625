@@ -1,3 +1,0 @@
-I found that give text is in morse code. So I decoded it and get a sequence of numbers.
-After observing the sequence carefully, I noticed that 628 is repeated over and over.
-So I encoded the sequence between every 628 to ascii text and found the flag.
